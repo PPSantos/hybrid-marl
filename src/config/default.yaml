@@ -17,7 +17,7 @@ use_cuda: False # Whether to use gpu
 buffer_cpu_only: True # If true we won't keep all of the replay buffer in vram
 
 # --- Logging options ---
-store_mongo: True  # If True stores in mongodb. Otherwise stores exp. data in local filesystem.
+store_mongo: False  # If True stores in mongodb. Otherwise stores exp. data in local filesystem.
 use_tensorboard: False # Log results to tensorboard
 save_model: True # Save the models to disk
 save_model_interval: 1_000_000 # Save models after this many timesteps
